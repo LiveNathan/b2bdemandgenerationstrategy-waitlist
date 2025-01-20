@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12b20fc-175f-46dd-b972-bf9ef4101d98" name="Changes" comment="">
+    <list default="true" id="b12b20fc-175f-46dd-b972-bf9ef4101d98" name="Changes" comment="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +15,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LiveNathan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LiveNathan&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "git@github.com:LiveNathan/av-equipment-suppliers-landing.git",
+    "url": "git@github.com:LiveNathan/b2bdemandgenerationstrategy-waitlist.git",
     "accountId": "f3ac8a71-2d5c-407c-a1bf-a03f5bb5a2ee"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rcp3s1H72wCTS3FOpVHIMxPafI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,14 +46,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
       </set>
     </attachedChunks>
   </component>
@@ -66,10 +67,47 @@
       <option name="presentableId" value="Default" />
       <updated>1736868023064</updated>
       <workItem from="1736868023885" duration="537000" />
+      <workItem from="1737412126384" duration="1219000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Google Tag Manager to index.html&#10;&#10;Integrated Google Tag Manager (GTM) scripts into index.html for tracking and analytics. Updated `.idea/workspace.xml` with minor IDE configuration changes likely related to project metadata and preferences.">
+      <option name="closed" value="true" />
+      <created>1737412203158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737412203158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;Relocate Google Tag Manager (noscript) to top of body tag&#10;&#10;Moved the Google Tag Manager (noscript) snippet from the bottom to the top of the body tag for improved implementation consistency. This ensures the script loads as early as possible, adhering to best practices.&quot;">
+      <option name="closed" value="true" />
+      <created>1737412326046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737412326046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered.">
+      <option name="closed" value="true" />
+      <created>1737412599015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737412599015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Add Google Tag Manager to index.html&#10;&#10;Integrated Google Tag Manager (GTM) scripts into index.html for tracking and analytics. Updated `.idea/workspace.xml` with minor IDE configuration changes likely related to project metadata and preferences." />
+    <MESSAGE value="&quot;Relocate Google Tag Manager (noscript) to top of body tag&#10;&#10;Moved the Google Tag Manager (noscript) snippet from the bottom to the top of the body tag for improved implementation consistency. This ensures the script loads as early as possible, adhering to best practices.&quot;" />
+    <MESSAGE value="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
