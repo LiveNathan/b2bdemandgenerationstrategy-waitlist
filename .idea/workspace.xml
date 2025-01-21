@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12b20fc-175f-46dd-b972-bf9ef4101d98" name="Changes" comment="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered.">
+    <list default="true" id="b12b20fc-175f-46dd-b972-bf9ef4101d98" name="Changes" comment="Update metadata and site title for B2B launch&#10;&#10;Revised the title, meta descriptions, and Open Graph tags to reflect the new focus on B2B Demand Generation Strategy. Updated URLs and alt texts to align with the rebranding efforts for better SEO and consistency. Minor adjustments made to success message wording.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +22,12 @@
     &quot;assignee&quot;: &quot;LiveNathan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:LiveNathan/b2bdemandgenerationstrategy-waitlist.git",
-    "accountId": "f3ac8a71-2d5c-407c-a1bf-a03f5bb5a2ee"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:LiveNathan/b2bdemandgenerationstrategy-waitlist.git&quot;,
+    &quot;accountId&quot;: &quot;f3ac8a71-2d5c-407c-a1bf-a03f5bb5a2ee&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -35,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,6 +69,9 @@
       <updated>1736868023064</updated>
       <workItem from="1736868023885" duration="537000" />
       <workItem from="1737412126384" duration="1219000" />
+      <workItem from="1737416019122" duration="166000" />
+      <workItem from="1737416300188" duration="372000" />
+      <workItem from="1737473281935" duration="1171000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Tag Manager to index.html&#10;&#10;Integrated Google Tag Manager (GTM) scripts into index.html for tracking and analytics. Updated `.idea/workspace.xml` with minor IDE configuration changes likely related to project metadata and preferences.">
       <option name="closed" value="true" />
@@ -93,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737412599015</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update metadata and site title for B2B launch&#10;&#10;Revised the title, meta descriptions, and Open Graph tags to reflect the new focus on B2B Demand Generation Strategy. Updated URLs and alt texts to align with the rebranding efforts for better SEO and consistency. Minor adjustments made to success message wording.">
+      <option name="closed" value="true" />
+      <created>1737416180860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737416180860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +117,8 @@
     <MESSAGE value="Add Google Tag Manager to index.html&#10;&#10;Integrated Google Tag Manager (GTM) scripts into index.html for tracking and analytics. Updated `.idea/workspace.xml` with minor IDE configuration changes likely related to project metadata and preferences." />
     <MESSAGE value="&quot;Relocate Google Tag Manager (noscript) to top of body tag&#10;&#10;Moved the Google Tag Manager (noscript) snippet from the bottom to the top of the body tag for improved implementation consistency. This ensures the script loads as early as possible, adhering to best practices.&quot;" />
     <MESSAGE value="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered." />
+    <MESSAGE value="Update metadata and site title for B2B launch&#10;&#10;Revised the title, meta descriptions, and Open Graph tags to reflect the new focus on B2B Demand Generation Strategy. Updated URLs and alt texts to align with the rebranding efforts for better SEO and consistency. Minor adjustments made to success message wording." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update metadata and site title for B2B launch&#10;&#10;Revised the title, meta descriptions, and Open Graph tags to reflect the new focus on B2B Demand Generation Strategy. Updated URLs and alt texts to align with the rebranding efforts for better SEO and consistency. Minor adjustments made to success message wording." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
