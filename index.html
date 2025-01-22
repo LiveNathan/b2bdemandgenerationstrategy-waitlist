@@ -33,82 +33,9 @@
   <link href="./icon.png" rel="apple-touch-icon">
   <link href="./site.webmanifest" rel="manifest">
   <meta name="theme-color" content="#fafafa">
-
-  <style>
-    /* Full-page centering */
-    body {
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      text-align: center;
-    }
-
-    header {
-      margin-bottom: 40px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin: 0 0 20px;
-    }
-
-    p {
-      margin: 20px 0;
-    }
-
-    section form {
-      margin-top: 20px; /* Adjusted spacing for better alignment */
-    }
-
-    input[type="email"] {
-      padding: 10px;
-      width: 300px;
-      max-width: 90%;
-      margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-
-    .cta-button {
-      margin-top: 20px;
-      display: inline-block;
-      text-decoration: none;
-      background-color: #28a745; /* Green color for call-to-action */
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-
-    .cta-button:hover {
-      background-color: #218838;
-    }
-
-    .video-container {
-      margin-top: 30px;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="m-0 flex flex-col justify-center items-center h-screen font-sans bg-gray-100 text-center">
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe height="0"
@@ -118,71 +45,72 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- Main Content -->
-<div>
-  <header>
-    <h1>Streamline Your Directory Keyword Research</h1> <!-- Updated headline -->
-    <p>Join the launch list and be the first to optimize your research process!</p>
+<div class="max-w-2xl">
+  <header class="mb-10">
+    <h1 class="mb-5 text-4xl font-bold">Streamline Your Directory Keyword Research</h1>
+    <p class="text-lg">Join the launch list and be the first to optimize your research process!</p>
   </header>
 
-  <!-- Embedded demo video -->
-  <div class="video-container">
-    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0"
-            height="315" src="https://www.youtube.com/embed/CNbukKZ1lz8"
-            title="Demo Video"
-            width="560">
-    </iframe>
+  <div class="flex justify-center">
+    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="w-96 h-52" frameborder="0" src="https://www.youtube.com/embed/CNbukKZ1lz8" title="Demo Video"></iframe>
   </div>
 
-  <!-- Brief description of the tool -->
   <section>
-    <p>This tool is designed to help directory builders save time by:</p>
-    <ul style="list-style: inside; text-align: left; display: inline-block; margin: 0 auto; padding: 0;">
-      <li>Analyzing content sources (like Reddit) to uncover hidden demand.</li>
-      <li>Validating directory-worthy keywords based on search volume and competition.</li>
-      <li>Incorporating the best SEO practices automatically.</li>
-    </ul>
-    <p>If you're tired of spending hours on keyword research, this tool simplifies the process to help you build better
-      directories faster.</p>
+    <div class="w-fit mx-auto text-left">
+      <p class="mt-8 text-lg">This tool is designed to help directory builders save time by:</p>
+      <ul class="list-disc list-inside">
+        <li>Analyzing content sources (like Reddit) to uncover hidden demand.</li>
+        <li>Validating directory-worthy keywords based on search volume and competition.</li>
+        <li>Incorporating the best SEO practices automatically.</li>
+      </ul>
+    </div>
+    <p class="mt-6 text-lg">If you're tired of spending hours on keyword research, this tool simplifies the process to
+      help you build better directories faster.</p>
   </section>
 
-  <!-- Sign-Up Form -->
-  <section>
+  <section class="mt-8">
     <form action="https://sendfox.com/form/m8z62m/1x288y" class="sendfox-form" data-async="true" data-recaptcha="true"
           id="1x288y" method="post">
-      <p>
-        <label for="sendfox_form_email">Email: </label>
-        <input id="sendfox_form_email" name="email" placeholder="Email" required type="email"/>
+      <p class="mb-4">
+        <label class="mr-2" for="sendfox_form_email">Email:</label>
+        <input class="p-2 w-[300px] max-w-[90%] border border-gray-300 rounded mb-5" id="sendfox_form_email" name="email" placeholder="Email" required
+               type="email"/>
       </p>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      <div aria-hidden="true" class="absolute left-[-5000px]">
         <input autocomplete="off" name="a_password" tabindex="-1" type="text" value=""/>
       </div>
       <p>
-        <button type="submit">Join the Launch Newsletter</button>
+        <button class="p-2 px-5 bg-blue-600 text-white rounded hover:bg-blue-800 text-lg cursor-pointer"
+                type="submit">Join the Launch
+          Newsletter
+        </button>
       </p>
+      <div class="hidden text-green-600 mt-5" id="success-message">
+        Thank you for joining! I successfully added you to the list.
+      </div>
     </form>
     <script src="https://cdn.sendfox.com/js/form.js" charset="utf-8"></script>
   </section>
 
-  <section>
-    <p>
+  <section class="mt-8">
+    <p class="text-lg">
       Want early access? Open the chat widget in the bottom right to request it.
     </p>
-    <p style="font-size: 0.9rem; color: #666;">
+    <p class="text-sm text-gray-500">
       Don’t see the chat widget? Please turn off your ad blocker and refresh the page.
     </p>
   </section>
 
-  <section>
-    <p>
+  <section class="mt-8">
+    <p class="text-lg">
       Already helping other directory builders—check out the <a
       href="https://www.reddit.com/r/directorymakers/comments/1i2qvex/built_a_tool_that_helped_me_stop_wasting_time_on/"
-      target="_blank">Reddit discussion</a> and join in!
+      class="text-blue-700 hover:underline" target="_blank">Reddit discussion</a> and join in!
     </p>
   </section>
 
-  <div id="success-message" style="display: none; color: green; margin-top: 20px;">
-    Thank you for joining! I successfully added you to the list.
-  </div>
 </div>
 
 <script>
