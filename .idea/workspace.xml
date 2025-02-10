@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12b20fc-175f-46dd-b972-bf9ef4101d98" name="Changes" comment="Update site content and UX for improved clarity and engagement&#10;&#10;Enhanced metadata, headlines, and descriptions to align with new branding and SEO goals. Introduced clear CTAs, an embedded demo video, and detailed feature descriptions for better user understanding. Made layout and styling adjustments for improved alignment and visual hierarchy.">
+    <list default="true" id="b12b20fc-175f-46dd-b972-bf9ef4101d98" name="Changes" comment="Update site content and styling for improved UX&#10;&#10;Replaced custom CSS with TailwindCSS for streamlined styling and responsive layout. Enhanced content structure with clearer CTAs, an embedded demo video, and updated feature descriptions for better clarity and engagement. Adjusted form and layout elements for improved accessibility and visual hierarchy.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -54,8 +54,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -72,7 +72,8 @@
       <workItem from="1737416019122" duration="166000" />
       <workItem from="1737416300188" duration="372000" />
       <workItem from="1737473281935" duration="1234000" />
-      <workItem from="1737557302189" duration="1923000" />
+      <workItem from="1737557302189" duration="1948000" />
+      <workItem from="1739210166959" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="Add Google Tag Manager to index.html&#10;&#10;Integrated Google Tag Manager (GTM) scripts into index.html for tracking and analytics. Updated `.idea/workspace.xml` with minor IDE configuration changes likely related to project metadata and preferences.">
       <option name="closed" value="true" />
@@ -114,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737474611432</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update site content and styling for improved UX&#10;&#10;Replaced custom CSS with TailwindCSS for streamlined styling and responsive layout. Enhanced content structure with clearer CTAs, an embedded demo video, and updated feature descriptions for better clarity and engagement. Adjusted form and layout elements for improved accessibility and visual hierarchy.">
+      <option name="closed" value="true" />
+      <created>1737560704611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737560704611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +137,8 @@
     <MESSAGE value="Add success message for subscription form submission&#10;&#10;A hidden success message is added to the page to notify users after joining the mailing list. It improves user feedback and confirms the form's functionality. The message is styled to appear green and remain hidden until triggered." />
     <MESSAGE value="Update metadata and site title for B2B launch&#10;&#10;Revised the title, meta descriptions, and Open Graph tags to reflect the new focus on B2B Demand Generation Strategy. Updated URLs and alt texts to align with the rebranding efforts for better SEO and consistency. Minor adjustments made to success message wording." />
     <MESSAGE value="Update site content and UX for improved clarity and engagement&#10;&#10;Enhanced metadata, headlines, and descriptions to align with new branding and SEO goals. Introduced clear CTAs, an embedded demo video, and detailed feature descriptions for better user understanding. Made layout and styling adjustments for improved alignment and visual hierarchy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update site content and UX for improved clarity and engagement&#10;&#10;Enhanced metadata, headlines, and descriptions to align with new branding and SEO goals. Introduced clear CTAs, an embedded demo video, and detailed feature descriptions for better user understanding. Made layout and styling adjustments for improved alignment and visual hierarchy." />
+    <MESSAGE value="Update site content and styling for improved UX&#10;&#10;Replaced custom CSS with TailwindCSS for streamlined styling and responsive layout. Enhanced content structure with clearer CTAs, an embedded demo video, and updated feature descriptions for better clarity and engagement. Adjusted form and layout elements for improved accessibility and visual hierarchy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update site content and styling for improved UX&#10;&#10;Replaced custom CSS with TailwindCSS for streamlined styling and responsive layout. Enhanced content structure with clearer CTAs, an embedded demo video, and updated feature descriptions for better clarity and engagement. Adjusted form and layout elements for improved accessibility and visual hierarchy." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
